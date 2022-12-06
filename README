@@ -1,0 +1,41 @@
+list = ['Fox', 'Tyler', 'Education', 'Engineering', 'CLA', 'Klein', 'Boyer', 'CST', 'STHM', 'TFMA']
+name = input("Type your name: ")
+print("Welcome", name, "let's help you find your best school fit here at Temple!")
+print(list)
+answer = input("You've been declared as undecided and we're here to help you pick one of our 11 undergrad programs we offer. To learn more about each school, type in an option from the list above: ")
+
+
+if answer == "Fox" or 'fox':
+    answer = input("Develop your leadership abilities and position yourself to participate in the evolving, increasingly digital global economy. Broaden your understanding of domestic and international business practices and hone your managerial skills at a school that focuses on entrepreneurship and the use of technology to drive innovation. ")    
+elif answer == "Tyler" or 'tyler':
+    answer = input("The Tyler School of Art and Architecture educates, motivates and inspires individuals who will enter society as artists, architects, art historians, designers and educators with the highest aspirations for achievement, producing innovative work that is publicly presented and critically considered. ")
+elif answer == "Education" or 'education':
+    answer = input("The College of Education and Human Development at Temple University promotes education — in schools, in the workplace, in organizations, and through community engagement — as a critically important way to achieve social justice. Our mission is to prepare our students to become agents of change who employ leading-edge understandings and evidence-based practices in any setting in which they might work. ")
+elif answer == "Engineering" or 'engineering':
+    answer = input("Develop comprehensive research and practical skills to prepare for an engineering career or future study. Work with faculty engaged in areas of research such as artificial intelligence, network securities and water resources engineering. Supplement your research and coursework with workshops and conferences for professional development. ")
+elif answer == "CLA" or 'cla':
+    answer = input("Grow into an innovative, creative thinker with a global perspective. Engage in international and study abroad opportunities while learning to reason critically and make a positive impact on the world. You’ll learn in seminar-style classes and through independent research, internships and service opportunities. ")
+elif answer == "Klein" or 'klein':
+    answer = input("The Lew Klein College of Media and Communication generates knowledge and educates students to be ethical, analytical and creative leaders, producers and citizens in a multimedia and multicultural society. This mission is pursued through the training of students for leadership careers in media and communication, through advancing research and creative activity in these fields, and through serving the public need for free and open communication. ")
+elif answer == "Boyer" or 'boyer':
+    answer = input("Advance your artistry in an inclusive learning environment where you'll develop new insights, perspectives and practices. Learn from world-class choreographers, composers, conductors and performers, and take advantage of multiple performance opportunities. Pursue creative and scholarly work, and explore Philadelphia's diverse cultural life. ")
+elif answer == "Public Health" or 'public health':
+    answer = input("Gain the advanced knowledge and expertise needed to navigate the rapidly changing fields of healthcare and social services. Learn in a collaborative and research-driven environment to devise wellness solutions for diverse populations. Acquire practical experience to address pressing public health and social welfare issues locally, nationally and globally. ")
+elif answer == "CST" or 'cst':
+    answer = input("Explore fundamental scientific principles, and work in the classroom, the field and the lab with faculty researchers who will challenge and inspire you. Build your research skills by testing your hypotheses in the Science and Education Research Center and get hands-on experience through internships in the region's thriving STEM industries. ")
+elif answer == "STHM" or 'sthm':
+    answer = input("Prepare for a career in hospitality, recreation, sport or tourism management in Philadelphia, a major sport and tourism hub. Acquire the practical and theoretical fundamentals of your chosen industry and gain experience and global perspective to become a key player in the field. Gain a competitive edge through faculty instruction and innovative research opportunities. ")
+elif answer == "TFMA" or 'tfma':
+    answer = input("Study acting, directing, filmmaking, set design, theater production and more through classroom learning and a variety of performance and production opportunities. Develop the experience, insight, knowledge and skills you’ll need to succeed in your craft. Prepare to join the many alumni who have gone on to high-profile careers on Broadway, on TV and in film. ")
+else:
+    print('Valid program not entered.') 
+
+
+'''
+again = input('Do you want to look at another school? Y/N/YES/NO ==> ')
+while True:    
+    if (again.upper() == "Y" or 'y' or 'yes' or 'Yes'):
+            continue
+    else:
+        print("I hope this program helped you with your program decision!")
+'''      
